@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <view>
+   <text>我是电影详情页面</text>
+ </view>
+</view>

@@ -1,0 +1,44 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.color-3{
+  color: #333;
+}
+.color-6{
+  color: #666;
+}
+.color-c{
+  color: #ccc;
+}
+
+.font-16{
+  font-size: 16px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-12{
+  font-size: 12px;
+}
+
+.single-line{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient:vertical;
+}
+.bg-red{
+  background-color: #f03d37;
+}
+
+.bg-blue{
+  background-color: #3c9fe6;
+}

@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+    <scroll-view>
+        <view wx:for="{{movieList}}"
+              id="{{movie.id}}"
+              wx:for-item="movie"
+              class="movie-item"
+              bindtap="onMovieClick">
+            <image src="{{movie.img}}" class="avatar"></image>
+            <view class="info">
+                <view class="title-wrap">
+                    <text class="title color-3">{{movie.nm}}</text>
+                    <view wx:if="{{movie['3d']&&movie['imax']}}" class="v3d-imax"></view>
+                    <view wx:if="{{movie['3d']&&!movie['imax']}}" class="v3d"></view>
+                </view>
+                <view class="score-wrap color-3 font-12">
+                    <view>
+                        <text>猫眼评分</text>
+                        <text class="scope font-14">{{movie.sc}}</text>
+                    </view>
+                </view>
+                <view class="star color-3 font-12">
+                    <text class="single-line">主演: {{movie.star}}12</text>
+                </view>
+                <view class="showInfo color-c font-12 ">
+                    <text>{{movie.showInfo}}</text>
+                </view>
+            </view>
+            <view class="btn-wrap font-12" catchtap="onBuyClick" id="{{movie.id}}">
+                <button wx:if="{{!movie['preSale']}}" class="btn btn-sell bg-red font-12">购票</button>
+                <button wx:if="{{movie['preSale']}}" class="btn btn-pre bg-blue font-12">预售</button>
+            </view>
+        </view>
+    </scroll-view>
+    <view>
+        <loading hidden="{{hiddenLoading}}">加载中...</loading>
+    </view>
+</view>

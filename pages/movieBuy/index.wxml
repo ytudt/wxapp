@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <view>
+   <text>我是购买电影页面</text>
+ </view>
+</view>
