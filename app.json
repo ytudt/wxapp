@@ -15,17 +15,17 @@
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#f03d37",
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath": "images/icon/movie-select.png",
-        "iconPath": "images/icon/movie.png",
+        "selectedIconPath": "images/icon/movie_ico-cur.png",
+        "iconPath": "images/icon/movie_ico.png",
         "pagePath": "pages/movie/index",
         "text": "电影"
       },
       {
-        "selectedIconPath": "images/icon/account-select.png",
+        "selectedIconPath": "images/icon/account-cur.png",
         "iconPath": "images/icon/account.png",
         "pagePath": "pages/index/index",
         "text": "我的",
@@ -35,7 +35,7 @@
 
       },
       {
-        "selectedIconPath": "images/icon/cart-select.png",
+        "selectedIconPath": "images/icon/cart-cur.png",
         "iconPath": "images/icon/cart.png",
         "pagePath": "pages/logs/logs",
         "text": "购物车"
