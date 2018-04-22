@@ -19,16 +19,20 @@
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath": "images/icon/account-select.png",
-        "iconPath": "images/icon/account.png",
-        "pagePath": "pages/index/index",
-        "text": "我的"
-      },
-      {
         "selectedIconPath": "images/icon/movie-select.png",
         "iconPath": "images/icon/movie.png",
         "pagePath": "pages/movie/index",
         "text": "电影"
+      },
+      {
+        "selectedIconPath": "images/icon/account-select.png",
+        "iconPath": "images/icon/account.png",
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "width": "15",
+        "height": "15"
+
+
       },
       {
         "selectedIconPath": "images/icon/cart-select.png",
